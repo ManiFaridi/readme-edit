@@ -380,6 +380,14 @@ Implementations MAY vary by deployment and adapter.
 
 ## 16. Roadmap (WP1)
 
+| Sprint | Deliverable                                      |
+|---------|--------------------------------------------------|
+| A       | ORCE core flow, wizard UI, Docker PoC           |
+| B       | K8s automation via EasyStack Builder            |
+| C       | Integrations (CAT, AAS, OCM/PCM, TSA/NOT)       |
+
+
+
 ---
 
 
