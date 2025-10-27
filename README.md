@@ -32,7 +32,7 @@ The key words **MUST**, **MUST NOT**, **REQUIRED**, **SHALL**, **SHALL NOT**, **
 
 The **Reference FAP (FAP1)** defines a **generic, reusable onboarding pattern** for federated ecosystems.  
 It standardizes how an organization is admitted into a federation using **open W3C standards** (SSI, DIDs, VC/VP) through a **wizardized, lowcode flow** executed in **ORCE** (Orchestration Engine).  
-The design is **not tied to any specific PoC or vendor**; **GaiaX is treated only as one possible trust anchor/blueprint**.  
+The design is **not tied to any specific PoC or vendor**; **Gaia-X is treated only as one possible trust anchor/blueprint**.  
 The outcome is an **executable, auditable, and portable** onboarding flow adaptable to any domain or trust framework.
 
 
@@ -254,7 +254,7 @@ Implementations MAY vary by deployment and adapter.
 
   - **W3Cfirst:** DID/VC/VP + JSONLD; no storage of raw private keys by the flow.
 
-  - **Trust Anchors (OPTIONAL):** GaiaX or others as policy providers.
+  - **Trust Anchors (OPTIONAL):** Gaia-X or others as policy providers.
 
   - **TLS Enforcement:** TLS 1.2+ for all endpoints.
 
@@ -296,61 +296,19 @@ Implementations MAY vary by deployment and adapter.
 
 ## 11. Standards & Compliance Mapping
 
-Area
-
-Standard
-
-Usage
-
-Identity
-
-W3C DID
-
-did:web (default), others
-
-Credentials
-
-W3C VC/VP
-
-Participant credentials
-
-Issuance
-
-OIDC4VCI / OAuth2
-
-Credential flow
-
-Presentation
-
-OIDC4VP
-
-VP verification
-
-Transport
-
-HTTPS/TLS
-
-Secure channels
-
-Trust
-
-Optional anchor
-
-Policy enforcement
-
 
 ---
 
 
 ## 12. Example Flow (Happy Path)
 
-Admin enters org info and accepts ToC.
+1. Admin enters org info and accepts ToC.
 
-DID generated → VC issued → verified locally.
+2. DID generated → VC issued → verified locally.
 
-SD published in Catalogue (if enabled).
+3. SD published in Catalogue (if enabled).
 
-Status updated to published and visible in dashboard.
+4. Status updated to published and visible in dashboard.
 
 
 ---
@@ -358,15 +316,15 @@ Status updated to published and visible in dashboard.
 
 ## 13. NonFunctional Requirements
 
-Portability: Docker و K8s.
+  - **Portability:** Docker and K8s.
 
-Reliability: Idempotent nodes; retry with backoff; compensating actions.
+  - **Reliability:** Idempotent nodes; retry with backoff; compensating actions.
 
-Observability: Structured logs, correlation IDs, debug nodes, health/readiness.
+  - **Observability:** Structured logs, correlation IDs, debug nodes, health/readiness.
 
-Usability: Clean UI, form validation, progressive disclosure.
+  - **Usability:** Clean UI, form validation, progressive disclosure.
 
-Extensibility: New DID methods, anchors, adapters.
+  - **Extensibility:** New DID methods, anchors, adapters.
 
 
 ---
@@ -374,15 +332,15 @@ Extensibility: New DID methods, anchors, adapters.
 
 ## 14. Validation & Acceptance Criteria
 
-Endtoend onboarding runs in ORCE only (adapters optional).
+1. Endtoend onboarding runs in ORCE only (adapters optional).
 
-VC/VP JSONLD passes W3C validation (issuance & presentation).
+2. VC/VP JSONLD passes W3C validation (issuance & presentation).
 
-Optional components (CAT, OCM/PCM, TSA, NOT, AAS) toggle on/off successfully.
+3. Optional components (CAT, OCM/PCM, TSA, NOT, AAS) toggle on/off successfully.
 
-Docker و K8s deployments بدون خطا اجرا شوند (Helm lint & install succeed).
+4. Docker and K8s deployments run without errors (Helm lint & install succeed).
 
-Outputs (SD, VC, VP) verifiable via Postman tests / resolver checks.
+5. Outputs (SD, VC, VP) verifiable via Postman tests / resolver checks.
 
 
 ---
@@ -412,33 +370,16 @@ Outputs (SD, VC, VP) verifiable via Postman tests / resolver checks.
 
 ## 16. Roadmap (WP1)
 
-Sprint
-
-Deliverable
-
-A
-
-ORCE core flow, wizard UI, Docker PoC
-
-B
-
-K8s automation via EasyStack Builder
-
-C
-
-Integrations (CAT, AAS, OCM/PCM, TSA/NOT)
-
-
 ---
 
 
 ## 17. Positioning & Notes
 
-FAP1 is a generic pattern, not bound to any PoC.
+  - **FAP1** is a generic pattern, not bound to any PoC.
 
-GaiaX is one possible trust anchor; not a dependency.
+  - **Gaia-X** is one possible trust anchor; not a dependency.
 
-Architecture centers on open W3C standards for maximum interoperability.
+  - **Architecture** centers on open W3C standards for maximum interoperability.
 
 Licensing advisory: consider CCBY4.0 for documents if aligning with broader XFSC practice.
 
@@ -458,9 +399,9 @@ Different trust anchors per environment.
 
 Optional AIassisted flow generation.
 
-### B. Example GaiaX Adapter Path (Optional)
+### B. Example Gaia-X Adapter Path (Optional)
 
-Transform inputs to GaiaX JSON shapes;
+Transform inputs to Gaia-X JSON shapes;
 
 Validate via GXDCH endpoints;
 
