@@ -247,6 +247,8 @@ TSA/NOT: POST /evidence/hash, GET /evidence/{id}.
 Implementations MAY vary by deployment and adapter.
 
 
+---
+
 
 ## 9. Security & Trust
 
@@ -260,6 +262,8 @@ Auditability: Timestamped logs; optional TSA/NOT evidence anchoring.
 
 Privacy: Data minimization; secrets in external KMS; JWT expirations and revocation/status checks.
 
+
+---
 
 
 ## 10. Deployment & Operations
@@ -286,6 +290,8 @@ Test onboarding with a dummy SD/VC.
 
 Monitor via ORCE dashboard; export audit logs.
 
+
+---
 
 
 ## 11. Standards & Compliance Mapping
@@ -333,6 +339,8 @@ Optional anchor
 Policy enforcement
 
 
+---
+
 
 ## 12. Example Flow (Happy Path)
 
@@ -344,6 +352,8 @@ SD published in Catalogue (if enabled).
 
 Status updated to published and visible in dashboard.
 
+
+---
 
 
 ## 13. NonFunctional Requirements
@@ -359,6 +369,8 @@ Usability: Clean UI, form validation, progressive disclosure.
 Extensibility: New DID methods, anchors, adapters.
 
 
+---
+
 
 ## 14. Validation & Acceptance Criteria
 
@@ -372,6 +384,8 @@ Docker و K8s deployments بدون خطا اجرا شوند (Helm lint & install
 
 Outputs (SD, VC, VP) verifiable via Postman tests / resolver checks.
 
+
+---
 
 
 ## 15. Repository Layout
@@ -393,6 +407,8 @@ Outputs (SD, VC, VP) verifiable via Postman tests / resolver checks.
 /\ops/\k8s/\helm/\README.md
 
 
+---
+
 
 ## 16. Roadmap (WP1)
 
@@ -413,6 +429,8 @@ C
 Integrations (CAT, AAS, OCM/PCM, TSA/NOT)
 
 
+---
+
 
 ## 17. Positioning & Notes
 
@@ -424,6 +442,8 @@ Architecture centers on open W3C standards for maximum interoperability.
 
 Licensing advisory: consider CCBY4.0 for documents if aligning with broader XFSC practice.
 
+
+---
 
 
 ## 18. Appendix
