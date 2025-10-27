@@ -270,25 +270,25 @@ Implementations MAY vary by deployment and adapter.
 
 ### 10.1 Local (Docker)
 
-Singlenode ORCE + demo adapters; quickstart for PoC.
+  - Singlenode ORCE + demo adapters; quickstart for PoC.
 
 ### 10.2 Kubernetes (Helm)
 
-ORCE runtime and adapters as Helm release.
+  - ORCE runtime and adapters as Helm release.
 
-EasyStack Builder automates the management of kubeconfig, Secrets, TLS, and Ingress.
+  - EasyStack Builder automates the management of kubeconfig, Secrets, TLS, and Ingress.
 
 ### 10.3 Integration Steps
 
-Deploy ORCE runtime (Docker/K8s).
+1. Deploy ORCE runtime (Docker/K8s).
 
-Configure domain, TLS, and realm.
+2. Configure domain, TLS, and realm.
 
-Import the reference flow (orce-flow.json).
+3. Import the reference flow (orce-flow.json).
 
-Test onboarding with a dummy SD/VC.
+4. Test onboarding with a dummy SD/VC.
 
-Monitor via ORCE dashboard; export audit logs.
+5. Monitor via ORCE dashboard; export audit logs.
 
 
 ---
