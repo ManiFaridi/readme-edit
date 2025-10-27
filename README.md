@@ -409,7 +409,7 @@ Implementations MAY vary by deployment and adapter.
 
 ### A. Integration Variants
 
-  - NoCatalogue mode (indexonly).
+  - No-Catalogue mode (indexonly).
 
   - Alternative DID methods via resolvers.
 
