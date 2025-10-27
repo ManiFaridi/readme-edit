@@ -238,11 +238,11 @@ Workshop1 covered ORCE fundamentals; Workshop2 focuses on **FAP1**, demonstratin
 
   - OIDC4VP: Presentation request → VP submission endpoint.
 
-Catalogue (CAT): POST /sd (publish), GET /sd/{id} (retrieve).
+  - Catalogue (CAT): POST /sd (publish), GET /sd/{id} (retrieve).
 
-OCM/PCM: POST /wallet/vc, GET /wallet/vc/{id}.
+  - OCM/PCM: POST /wallet/vc, GET /wallet/vc/{id}.
 
-TSA/NOT: POST /evidence/hash, GET /evidence/{id}.
+  - TSA/NOT: POST /evidence/hash, GET /evidence/{id}.
 
 Implementations MAY vary by deployment and adapter.
 
@@ -252,15 +252,15 @@ Implementations MAY vary by deployment and adapter.
 
 ## 9. Security & Trust
 
-W3Cfirst: DID/VC/VP + JSONLD; no storage of raw private keys by the flow.
+**W3Cfirst:** DID/VC/VP + JSONLD; no storage of raw private keys by the flow.
 
-Trust Anchors (OPTIONAL): GaiaX or others as policy providers.
+**Trust Anchors (OPTIONAL):** GaiaX or others as policy providers.
 
-TLS Enforcement: TLS 1.2+ for all endpoints.
+**TLS Enforcement:** TLS 1.2+ for all endpoints.
 
-Auditability: Timestamped logs; optional TSA/NOT evidence anchoring.
+**Auditability:** Timestamped logs; optional TSA/NOT evidence anchoring.
 
-Privacy: Data minimization; secrets in external KMS; JWT expirations and revocation/status checks.
+**Privacy:** Data minimization; secrets in external KMS; JWT expirations and revocation/status checks.
 
 
 ---
