@@ -270,7 +270,7 @@ Implementations MAY vary by deployment and adapter.
 
 ### 10.1 Local (Docker)
 
-  - Singlenode ORCE + demo adapters; quickstart for PoC.
+  - Single-node ORCE + demo adapters; quickstart for PoC.
 
 ### 10.2 Kubernetes (Helm)
 
