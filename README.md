@@ -234,15 +234,15 @@ Workshop1 covered ORCE fundamentals; Workshop2 focuses on **FAP1**, demonstratin
 
 ### 8.2 Interfaces (Abstract)
 
-  - OIDC4VCI: POST /credential-offers → GET /credential (Auth via OAuth2).
+  - OIDC4VCI: `POST /credential-offers` → `GET /credential` (Auth via OAuth2).
 
   - OIDC4VP: Presentation request → VP submission endpoint.
 
-  - Catalogue (CAT): POST /sd (publish), GET /sd/{id} (retrieve).
+  - Catalogue (CAT): `POST /sd` (publish), `GET /sd/{id}` (retrieve).
 
-  - OCM/PCM: POST /wallet/vc, GET /wallet/vc/{id}.
+  - OCM/PCM: `POST /wallet/vc`, `GET /wallet/vc/{id}`.
 
-  - TSA/NOT: POST /evidence/hash, GET /evidence/{id}.
+  - TSA/NOT: `POST /evidence/hash`, `GET /evidence/{id}`.
 
 Implementations MAY vary by deployment and adapter.
 
@@ -252,7 +252,7 @@ Implementations MAY vary by deployment and adapter.
 
 ## 9. Security & Trust
 
-  - **W3Cfirst:** DID/VC/VP + JSONLD; no storage of raw private keys by the flow.
+  - **W3Cfirst:** DID/VC/VP + JSON-LD; no storage of raw private keys by the flow.
 
   - **Trust Anchors (OPTIONAL):** Gaia-X or others as policy providers.
 
@@ -344,7 +344,7 @@ Implementations MAY vary by deployment and adapter.
 
 1. Endtoend onboarding runs in ORCE only (adapters optional).
 
-2. VC/VP JSONLD passes W3C validation (issuance & presentation).
+2. VC/VP JSON-LD passes W3C validation (issuance & presentation).
 
 3. Optional components (CAT, OCM/PCM, TSA, NOT, AAS) toggle on/off successfully.
 
@@ -358,21 +358,21 @@ Implementations MAY vary by deployment and adapter.
 
 ## 15. Repository Layout
 
-/\docs/\specifications/\FAP1_Partner_Onboarding_Spec.md
+`/docs/specifications/FAP1_Partner_Onboarding_Spec.md`
 
-/\flows/\reference-fap1/\orce-flow.json
+`/flows/reference-fap1/orce-flow.json`
 
-/\flows/\reference-fap1/\samples/\sd.json
+`/flows/reference-fap1/samples/sd.json`
 
-/\flows/\reference-fap1/\samples/\vc.json
+`/flows/reference-fap1/samples/vc.json`
 
-/\flows/\reference-fap1/\samples/\vp.json
+`/flows/reference-fap1/samples/vp.json`
 
-/\ops/\esb/\values/\*.yaml
+`/ops/esb/values/*.yaml`
 
-/\ops/\docker/\README.md
+`/ops/docker/README.md`
 
-/\ops/\k8s/\helm/\README.md
+`/ops/k8s/helm/README.md`
 
 
 ---
