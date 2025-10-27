@@ -59,7 +59,7 @@ Workshop1 covered ORCE fundamentals; Workshop2 focuses on **FAP1**, demonstratin
 ### 3.1 Goals
 
 - Deliver a **generic reference onboarding flow** independent of PoC/domain.  
-- Implement **open standards**: W3C DID/VC/VP, **OIDC4VCI** (issuance) و **OIDC4VP** (presentation), OAuth2/OIDC.  
+- Implement **open standards**: W3C DID/VC/VP, **OIDC4VCI** (issuance) and **OIDC4VP** (presentation), OAuth2/OIDC.  
 - Ensure the flow **runs fully within ORCE** with **optional adapters** to Catalogue (CAT), OCM, PCM, TSA, NOT, AAS.  
 - Provide **deployment & integration guidance** for Docker and Kubernetes via EasyStack Builder.
 
