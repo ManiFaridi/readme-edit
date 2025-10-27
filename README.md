@@ -234,9 +234,9 @@ Workshop1 covered ORCE fundamentals; Workshop2 focuses on **FAP1**, demonstratin
 
 ### 8.2 Interfaces (Abstract)
 
-OIDC4VCI: POST /credential-offers → GET /credential (Auth via OAuth2).
+  - OIDC4VCI: POST /credential-offers → GET /credential (Auth via OAuth2).
 
-OIDC4VP: Presentation request → VP submission endpoint.
+  - OIDC4VP: Presentation request → VP submission endpoint.
 
 Catalogue (CAT): POST /sd (publish), GET /sd/{id} (retrieve).
 
