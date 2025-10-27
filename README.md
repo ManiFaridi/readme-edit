@@ -381,7 +381,7 @@ Implementations MAY vary by deployment and adapter.
 
   - **Architecture** centers on open W3C standards for maximum interoperability.
 
-Licensing advisory: consider CCBY4.0 for documents if aligning with broader XFSC practice.
+  - **Licensing advisory:** consider CCBY4.0 for documents if aligning with broader XFSC practice.
 
 
 ---
@@ -391,27 +391,27 @@ Licensing advisory: consider CCBY4.0 for documents if aligning with broader XFSC
 
 ### A. Integration Variants
 
-NoCatalogue mode (indexonly).
+  - NoCatalogue mode (indexonly).
 
-Alternative DID methods via resolvers.
+  - Alternative DID methods via resolvers.
 
-Different trust anchors per environment.
+  - Different trust anchors per environment.
 
-Optional AIassisted flow generation.
+  - Optional AI assisted flow generation.
 
 ### B. Example Gaia-X Adapter Path (Optional)
 
-Transform inputs to Gaia-X JSON shapes;
+  - Transform inputs to Gaia-X JSON shapes;
 
-Validate via GXDCH endpoints;
+  - Validate via GXDCH endpoints;
 
-Store issued credential in OCM;
+  - Store issued credential in OCM;
 
-Publish SD to CAT;
+  - Publish SD to CAT;
 
-Notarize hash in NOT;
+  - Notarize hash in NOT;
 
-Reverify via resolver/compliance API.
+  - Reverify via resolver/compliance API.
 
 
 
