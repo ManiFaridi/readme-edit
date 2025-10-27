@@ -52,7 +52,7 @@ Workshop1 covered ORCE fundamentals; Workshop2 focuses on **FAP1**, demonstratin
 
 
 
-## 3. Goals & NonGoals
+## 3. Goals & Non-Goals
 
 
 
@@ -65,7 +65,7 @@ Workshop1 covered ORCE fundamentals; Workshop2 focuses on **FAP1**, demonstratin
 
 
 
-### 3.2 NonGoals
+### 3.2 Non-Goals
 
 - Binding the FAP to a specific trust framework or vendor.  
 - Deep domainspecific approval processes or backoffice tasks.  
@@ -81,7 +81,7 @@ Workshop1 covered ORCE fundamentals; Workshop2 focuses on **FAP1**, demonstratin
 
 
 
-### 4.1 InScope
+### 4.1 In-Scope
 
 - **Onboarding Wizard** for organization data, DID, consent, and credential issuance.  
 - **Credential verification**, **publication**, and **status tracking**.  
@@ -90,7 +90,7 @@ Workshop1 covered ORCE fundamentals; Workshop2 focuses on **FAP1**, demonstratin
 
 
 
-### 4.2 OutofScope
+### 4.2 Out-of-Scope
 
 - Nongeneric, sectorspecific logic.  
 - Proprietary/manual workflow steps beyond reference scope.
