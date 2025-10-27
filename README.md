@@ -274,9 +274,9 @@ Singlenode ORCE + demo adapters; quickstart for PoC.
 
 ### 10.2 Kubernetes (Helm)
 
-ORCE runtime و adapters به‌صورت Helm release.
+ORCE runtime and adapters as Helm release.
 
-EasyStack Builder مدیریت kubeconfig، Secrets، TLS، و Ingress را خودکار می‌کند.
+EasyStack Builder automates the management of kubeconfig, Secrets, TLS, and Ingress.
 
 ### 10.3 Integration Steps
 
