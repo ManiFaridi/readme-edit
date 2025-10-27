@@ -296,6 +296,16 @@ Implementations MAY vary by deployment and adapter.
 
 ## 11. Standards & Compliance Mapping
 
+| Area         | Standard            | Usage                          |
+|---------------|---------------------|--------------------------------|
+| Identity      | W3C DID             | did:web (default), others      |
+| Credentials   | W3C VC/VP           | Participant credentials        |
+| Issuance      | OIDC4VCI / OAuth2   | Credential flow                |
+| Presentation  | OIDC4VP             | VP verification                |
+| Transport     | HTTPS/TLS           | Secure channels                |
+| Trust         | Optional anchor     | Policy enforcement             |
+
+
 
 ---
 
